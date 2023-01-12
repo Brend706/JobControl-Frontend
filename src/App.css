@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+.App {
+  text-align: center;
+}
+
+/*font-family: 'Fredoka One', cursive;*/
+/*ont-family: 'Josefin Sans', sans-serif;*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.mynavbar{
+  background-color: #1f2124;
+  display: flex;
+  width: auto;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+}
+
+.title{
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size: 25px;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+}
+
+.title .link-btn{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.link-btn:hover{
+  transform: scale(1.1);
+}
+
+.mynavbar .link-btn button{
+  font-weight: 700;
+  color: #171718;
+  padding: 9px 25px;
+  background-color: #9fa3a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.form-btn{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  float: right;
+}
+
+.form-btn button:hover{
+  transform: scale(1.1);
+  background-color: white;
+  color: #393d42;
+  border: #171718 1px solid;
+}
+
+.form-btn button{
+  width: 300px;
+  height: 70px;
+  background-color: #393d42;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 9px 25px;
+  margin-bottom: 50px;
+}
+
+.myform{
+  border-radius: 25px;
+  border: #9fa3a9 1px solid;
+  margin: 5% auto;
+  padding: 25px;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home{
+  padding: 25px;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.layout{
+  padding: 25px;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  background-color: #9fa3a9;
+}
+
+img{
+  width: 700px;
+}
+
+.btn{
+  margin-left: 9px;
+}
+
+.back{
+  float: right;
+  text-decoration: none;
+  color: white;
+}
